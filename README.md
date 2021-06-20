@@ -15,9 +15,9 @@ v 1.0 - made basic html and css resets
 
 v 1.1 - applied showcase img and fixed sizing issue
 
-v 1.2 -
+v 1.2 - fixed showcase img scaling, cleaned up html
 
-v 1.3 -
+v 1.3 - Added 'What I do' section. Created Animations for img links
 
 v 1.4 -
 
