@@ -10,18 +10,21 @@
     --light-color: #f4f4f4;
 }
 
-* {     
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-}
-
 body {
     font-family: 'PT Sans' sans-serif;
     background-color: #252529;
     margin: 0;
     color: #fff;
     line-height: 1.6;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: #ccc;
 }
 
 /* Nav */
@@ -72,25 +75,22 @@ nav a#openup {
     overflow-y: hidden;
 }
 
-
-
 #showcase .container {
     margin-top: 25vh;
 }
 
 #showcase h1 {
     font-size: 4rem;
+    margin-bottom: 0;
 }
 #showcase h2 {
-    margin-bottom: 0;
     font-size: 2rem;
 }
 
 /* Section */
 
 .section {
-    padding: 2rem 0;
-    
+    padding: 2rem 0;   
 }
 
 .section-head {
@@ -102,113 +102,130 @@ nav a#openup {
     font-size: 2rem;
 }
 
-  /* Responsiveness Utilities */
+  /* Container */
 
-  @media screen and (max-width: 580px) {
+  .container {
+    max-width: 1180px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0 3rem;
+  }
 
-    .hide-on-small {
-      display: none;
-    }
+  /* Lead */
 
-    #showcase {
-     height: 50vh; 
-    }
+  .lead {
+    font-size: 1.3rem;
+  }
 
-    #showcase .container {
-      margin-top: 15vh;
-    }
+  /* Utility Classes */
 
-    #showcase h1 {
-      font-size: 3rem;
-    }
+  /* Responsiveness */
 
-    #showcase h2 {
-      font-size: 1.5rem;
-    }
+@media screen and (max-width: 580px) {
 
-    nav {
-      height: auto;
-      border-bottom: 0;
-    }
+.hide-on-small {
+    display: none;
+}
 
-    nav ul {
-      display: none;
-      height: auto;
-    }
-    nav li {
-      width: 100%;
-      float: left;
-      position: relative;
-    }
+#showcase {
+    height: 50vh; 
+}
 
-    nav a {
-      text-align: left;
-      width: 100%;
-      text-indent: 25px;
-      background: #333;
-      border-bottom: 1px solid #555;
-    }
+#showcase .container {
+    margin-top: 15vh;
+}
 
-    nav a:hover {
-      background: #444;
-    }
+#showcase h1 {
+    font-size: 3rem;
+}
 
-    nav a#openup:after {
-      content: "|||";
-      transform: rotate(-90deg);
-      -ms-transform: rotate(-90deg);
-      /* IE 9 */
-      -webkit-transform: rotate(-90deg);
-      /* Safari and Chrome */
-      width: 30px;
-      height: 30px;
-      display: inline-block;
-      position: absolute;
-      right: 5px;
-      top: 20px;
-    }
+#showcase h2 {
+    font-size: 1.5rem;
+}
 
-    nav a#openup {
-      display: block;
-      background-color: #333;
-      width: 100%;
-      position: relative;
-    }
+nav {
+    height: auto;
+    border-bottom: 0;
+}
 
-    }
-    .cf:before, .cf:after {
+nav ul {
+    display: none;
+    height: auto;
+}
+nav li {
+    width: 100%;
+    float: left;
+    position: relative;
+}
+
+nav a {
+    text-align: left;
+    width: 100%;
+    text-indent: 25px;
+    background: #333;
+    border-bottom: 1px solid #555;
+}
+
+nav a:hover {
+    background: #444;
+}
+
+nav a#openup:after {
+    content: "|||";
+    transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    /* IE 9 */
+    -webkit-transform: rotate(-90deg);
+    /* Safari and Chrome */
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    position: absolute;
+    right: 5px;
+    top: 20px;
+}
+
+nav a#openup {
+    display: block;
+    background-color: #333;
+    width: 100%;
+    position: relative;
+}
+
+}
+.cf:before, .cf:after {
     content: "";
     display: table;
-   }
-  
-   .cf:after {
+}
+
+.cf:after {
     clear: both;
-    }
-  
-    .cf {
+}
+
+.cf {
     zoom: 1;
-    }
+}
 
-    @media screen and (max-height: 580px) {
-      #showcase p.lead {
-        display: none;
-      }
-    }
+@media screen and (max-height: 580px) {
+  #showcase p.lead {
+      display: none;
+  }
+}
 
-    @media screen and (max-width: 780px) {
-      .gift-cards {
-        grid-template-columns: 1fr;
-      }
+@media screen and (max-width: 780px) {
+  .gift-cards {
+      grid-template-columns: 1fr;
+  }
 
-      footer .footer-cols {
-        display: none;
-      }
-    }
+  footer .footer-cols {
+      display: none;
+  }
+}
 
-    @media screen and (max-height: 580px) {
-      #showcase p.lead {
-        display: none;
-      }
-    }
+@media screen and (max-height: 580px) {
+  #showcase p.lead {
+      display: none;
+  }
+}
 
-  
+
