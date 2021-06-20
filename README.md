@@ -23,11 +23,11 @@ v 1.4 - Added Contact Me section.
 
 v 1.5 - Fixed issues with responsive design
 
-v 1.6 - Added Footer
+v 1.6 - Added Footer.
 
-v 1.7 -
+v 1.7 - Finished Footer, condensed stylesheet.
 
-v 1.8 -
+v 1.8 - cleaned up and expanded several html sections
 
 v 1.9 -
 
