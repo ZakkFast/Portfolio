@@ -126,6 +126,14 @@ nav a#openup {
     font-size: 2rem;
 }
 
+.section-2 {
+  padding: 10rem 0;
+}
+
+.section-2 h3 {
+  font-size: 2rem;
+}
+
   /* Container */
 
   .container {
@@ -148,6 +156,18 @@ nav a#openup {
     grid-gap: 20px;
     grid-template-columns: repeat(2, 1fr);
     text-align: left;
+  }
+
+  /* Contact */
+
+  #contact {
+    margin: 0;
+    padding: 0;
+    background: url(../images/idea.jpg) no-repeat center/cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow-y: hidden;
   }
 
   /* Utility Classes */
