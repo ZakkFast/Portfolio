@@ -170,6 +170,11 @@ nav a#openup {
     overflow-y: hidden;
   }
 
+  #icon {
+    border-radius: 50%;
+    width: 5rem;
+  }
+
   /* Footer */
 
   footer {
@@ -209,6 +214,9 @@ nav a#openup {
     font-size: 1.5rem;
 }
 
+#icon {
+  display: block;
+}
 
 nav {
     height: auto;
