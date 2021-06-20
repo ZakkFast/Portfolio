@@ -19,11 +19,11 @@ v 1.2 - fixed showcase img scaling, cleaned up html
 
 v 1.3 - Added 'What I do' section. Created Animations for img links
 
-v 1.4 -
+v 1.4 - Added Contact Me section.
 
-v 1.5 -
+v 1.5 - Fixed issues with responsive design
 
-v 1.6 -
+v 1.6 - Added Footer
 
 v 1.7 -
 
