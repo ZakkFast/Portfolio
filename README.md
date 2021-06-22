@@ -35,3 +35,5 @@ v 2.0 - Added headshot
 
 v 2.1 - Increased font size for better visibility. Added spacing on various elements for aethestics. Added Favicon
 
+v 2.2 - Updated missing semantic tags. Cleaned up CSS. Removed extra unused imgs
+
