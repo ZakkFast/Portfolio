@@ -53,4 +53,6 @@ v 2.1 - Increased font size for better visibility. Added spacing on various elem
 v 2.2 - Updated missing semantic tags. Cleaned up CSS. Removed extra unused imgs
 
 v 2.3 - Updated readme. Selected final images for layout. 
+
+v 2.4 - Updated header for better spacing. Changed tag line text.
 </pre>
