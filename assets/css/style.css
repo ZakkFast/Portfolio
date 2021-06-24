@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
 
 /* CSS Variables */
-
+* {
+    margin: 0;
+    padding: 0;
+}
 :root {
     --light-color: #f4f4f4;
     --off-white: #eee;
@@ -161,7 +164,7 @@ img {
   #contact {
      margin: 0;
      padding: 0;
-     background: url(../images/idea-2.jpg) no-repeat center/cover;
+     background: url(../images/city2.jpg) no-repeat center/cover;
      width: 100%;
      height: 80vh;
      position: relative;
