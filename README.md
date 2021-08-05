@@ -14,6 +14,7 @@ and links to ways you can contact me.
 
 # change-log
 <pre>
+
 v 1.0 - made basic html and css resets
 
 v 1.1 - applied showcase img and fixed sizing issue
