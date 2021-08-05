@@ -8,7 +8,7 @@ and links to ways you can contact me.
 
 
 
-<img src='assets/images/portfolio.gif'><br><br>
+<img src='assets/images/Portfolio.gif'><br><br>
 
 
 
